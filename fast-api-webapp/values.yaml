@@ -5,10 +5,11 @@
 replicaCount: 1
 
 image:
-  repository: xoanmallon/kc-devops-8-simple-fast-api
+  #repository: xoanmallon/kc-devops-8-simple-fast-api
+  repository: cjcuesta/kc-devops-8-simple-fast-api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.2.0"
+  tag: "beta"
 
 # imagePullSecrets created to use Docker Hub Private Account
 imagePullSecrets:
