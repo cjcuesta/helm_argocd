@@ -21,3 +21,6 @@
 .idea/
 *.tmproj
 .vscode/
+
+mongodb.yaml
+mongodb_secret.yaml
